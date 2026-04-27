@@ -1,13 +1,13 @@
-package br.com.issufibadji.email_springboot_service;
+package br.com.issufibadji.emailspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmailSpringbootServiceApplication {
+public class EmailSpringbootApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmailSpringbootServiceApplication.class, args);
+		SpringApplication.run(EmailSpringbootApplication.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package br.com.issufibadji.email_springboot_service;
+package br.com.issufibadji.emailspringboot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmailSpringbootServiceApplicationTests {
+class EmailSpringbootApplicationTests {
 
 	@Test
 	void contextLoads() {
