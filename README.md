@@ -4,7 +4,7 @@
 
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=Github&message=@issufibadji&color=8257E5&labelColor=000000" alt="@issufibadji" />
- <img src="https://img.shields.io/static/v1?label=Tipo&message=Demo&color=8257E5&labelColor=000000" alt="Demo" />
+ <img src="https://github.com/issufibadji/send-email-sprinboot/blob/master/src/img/senderEmail.png=Tipo&message=Demo&color=8257E5&labelColor=000000" alt="Demo" />
 </p>
 
  Enviou e-mails de forma simples e eficaz utilizando o poderoso framework Spring Boot em conjunto com a biblioteca JavaMail.
@@ -45,11 +45,13 @@
   ```
   http POST :8080/email to="issufibjsis@gmail.com" subject="demo spring mail" body="Olá, Mundo"
   ```
-  mas antes instala:
+  Mas antes instala:
+
   ```
    pip install httpie
- ```
-ou
+  ```
+  
+Ou
   ```
   Invoke-WebRequest -Uri http://localhost:8080/email -Method POST -ContentType "application/json" -Body '{"to":"gptibj@gmail.com","subject":"teste spring","body":"funcionou!"}'
   ```
