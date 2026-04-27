@@ -31,3 +31,30 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Credenciais e segredos ###
+application-local.properties
+application-prod.properties
+*.env
+.env
+.env.*
+secrets.properties
+
+### Logs ###
+*.log
+logs/
+spring.log
+
+### Sistema operacional ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Arquivos temporarios ###
+*.tmp
+*.bak
+*.swp
+*.class
+
+### Claude Code ###
+.claude/
